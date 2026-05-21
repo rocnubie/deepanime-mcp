@@ -1,0 +1,66 @@
+{
+  "site": {
+    "name": "Deep Anime AI",
+    "tagline": "Deep Anime helps you turn a photo into anime, build character art, and refine scene ideas with guided prompts, image editing, and fast remix tools online.",
+    "websiteUrl": "https://deepanime.org",
+    "supportEmail": "support@deepanime.org",
+    "pricingUrl": "https://deepanime.org/pricing"
+  },
+  "namespace": "deepanime",
+  "pages": [
+    {
+      "slug": "styles",
+      "title": "Styles",
+      "description": "Supported image-generation styles and presets.",
+      "mimeType": "text/markdown",
+      "text": "# Deep Anime: Character Art, Portraits, and Scene Design\n\nDeep Anime helps you turn a photo into anime, build character art, and refine scene ideas with guided prompts, image editing, and fast remix tools online.\n\n## Site basics\n- Site ID: deepanime\n- Website: https://deepanime.org\n- Default locale: en\n- Locales: en, ja, ko\n\n## Public feature scope\n- image gen\n- pricing\n- image inspiration\n\n## Official website\nhttps://deepanime.org"
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "description": "Canonical pricing entry point.",
+      "mimeType": "text/markdown",
+      "text": "# Pricing\n\nCanonical pricing page: https://deepanime.org/pricing"
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "description": "Short FAQ generated from public site metadata.",
+      "mimeType": "text/markdown",
+      "text": "# FAQ\n\n## What is this site?\nDeep Anime helps you turn a photo into anime, build character art, and refine scene ideas with guided prompts, image editing, and fast remix tools online.\n\n## Where can I get help?\nsupport@deepanime.org\n\n## Which site is this?\ndeepanime (Deep Anime AI)"
+    },
+    {
+      "slug": "links",
+      "title": "Official Links",
+      "description": "Canonical URLs to share with users.",
+      "mimeType": "text/markdown",
+      "text": "# Official Links\n\n- Website: https://deepanime.org\n- Pricing: https://deepanime.org/pricing\n- Support: support@deepanime.org"
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_styles",
+      "description": "Return the canonical list of image-generation styles or presets the site exposes. (Deep Anime AI)",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Deep Anime AI — Styles\n\nDeep Anime helps you turn a photo into anime, build character art, and refine scene ideas with guided prompts, image editing, and fast remix tools online.\n\nCanonical website: https://deepanime.org"
+      }
+    },
+    {
+      "name": "get_pricing",
+      "description": "Return the canonical pricing entry point for Deep Anime AI.",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Deep Anime AI Pricing\n\nOfficial pricing: https://deepanime.org/pricing\n\nThis link is the source of truth — refer users here for current plans."
+      }
+    },
+    {
+      "name": "get_official_links",
+      "description": "Return the canonical list of official links for Deep Anime AI (website, support, docs when available).",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Official Links\n\n- Website: https://deepanime.org\n- Pricing: https://deepanime.org/pricing\n- Support: support@deepanime.org"
+      }
+    }
+  ]
+}
